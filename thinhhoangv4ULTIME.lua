@@ -185,7 +185,7 @@ Window = Fluent:CreateWindow({
 })
 local Tabs = {
 
-Info=Window:AddTab({ Title="discord" }),
+Info=Window:AddTab({ Title="thông tin" }),
     Main=Window:AddTab({ Title="main fram" }),
 
 Main1=Window:AddTab({ Title="Fram Other" }),
@@ -2320,7 +2320,7 @@ Button.Parent = ScreenGui
 Button.Size = UDim2.new(0, 50, 0, 50)
 Button.Position = UDim2.new(0.015, 0, 0.02, 20)
 Button.BackgroundTransparency = 1
-Button.Image = "rbxassetid://130859905437947"
+Button.Image = "rbxassetid://71929667640689"
 local UICorner = Instance.new("UICorner")
 
 UICorner.CornerRadius = UDim.new(1, 0)
@@ -2411,7 +2411,7 @@ spawn(function()
         if _G.FastAttackVxeze_Mode then
             pcall(function()
                 if _G.FastAttackVxeze_Mode=="Super Fast Attack" then
-                    _G.Fast_Delay=0.1
+                    _G.Fast_Delay=0
                 end
             end)
         end
@@ -3949,9 +3949,9 @@ local StatusKitsune = Tabs.Sea:AddParagraph({
 })
 function UpdateKitsune()
     if game.Workspace._WorldOrigin.Locations:FindFirstChild('Kitsune Island') then
-        StatusKitsune:SetDesc("Kitsune Island : ")
+        StatusKitsune:SetDesc("Kitsune Island :🟢🔴 ")
     else
-        StatusKitsune:SetDesc("Kitsune Island : ")
+        StatusKitsune:SetDesc("Kitsune Island :🟢🔴 ")
     end
 end
 spawn(function()
@@ -9330,7 +9330,7 @@ local currentTime = tick()
 if currentTime - lastNotificationTime >= notificationCooldown then
     game.StarterGui:SetCore("SendNotification", {
         Title = "cat egg v4 ultimate",
-        Text = "khởi động",
+        Text = "loding thành công 🇻🇳🇻🇳🇻🇳",
         Duration = 1
     })
     lastNotificationTime = currentTime
