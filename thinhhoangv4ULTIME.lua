@@ -823,43 +823,43 @@ Ms="Isle Outlaw"
 NameQuest="TikiQuest1"
 QuestLv=1
 NameMon="Isle Outlaw"
-CFrameQ=CFrame.new(-16549.890625, 55.68635559082031,-179.91360473632812)
-CFrameMon=CFrame.new(-16162.8193359375, 11.6863374710083,-96.45481872558594)
-elseif Lv==2475 or Lv<=2499  or SelectMonster=="Island Boy" then
+CFrameQ=CFrame.new(-16547.748046875, 61.13533401489258, -173.41360473632812)
+CFrameMon=CFrame.new(-16442.814453125, 116.13899993896484, -264.4637756347656)
+elseif MyLevel >= 2475 and MyLevel <= 2524 then
 Ms="Island Boy"
 NameQuest="TikiQuest1"
 QuestLv=2
 NameMon="Island Boy"
-CFrameQ=CFrame.new(-16549.890625, 55.68635559082031,-179.91360473632812)
-CFrameMon=CFrame.new(-16357.3125, 20.632822036743164, 1005.64892578125)
-elseif Lv==2500 or Lv<=2524 or SelectMonster=="Sun-kissed Warrior" then
+CFrameQ=CFrame.new(-16547.748046875, 61.13533401489258, -173.41360473632812)
+CFrameMon=CFrame.new(-16901.26171875, 84.06756591796875, -192.88906860351562)
+elseif MyLevel >= 2525 and MyLevel <= 2550 then
 Ms="Sun-kissed Warrior"
 NameQuest="TikiQuest2"
 QuestLv=1
 NameMon="Sun-kissed Warrior"
 CFrameQ=CFrame.new(-16541.021484375, 54.77081298828125, 1051.461181640625)
 CFrameMon=CFrame.new(-16357.3125, 20.632822036743164, 1005.64892578125)
-elseif Lv==2525 or Lv<=2549 or SelectMonster=="Isle Champion" then
+elseif MyLevel >= 2525 and MyLevel <= 2550 then
 Ms="Isle Champion"
 NameQuest="TikiQuest2"
 QuestLv=2
 NameMon="Isle Champion"
-CFrameQ=CFrame.new(-16541.021484375, 54.77081298828125, 1051.461181640625)
-CFrameMon=CFrame.new(-16848.94140625, 21.68633460998535, 1041.4490966796875)
-elseif Lv==2550 or Lv<=2574 or SelectMonster=="Serpent Hunter" then
+CFrameQ=CFrame.new(-16539.078125, 55.68632888793945, 1051.5738525390625)
+CFrameMon=CFrame.new(-16641.6796875, 235.7825469970703, 1031.282958984375)
+elseif MyLevel >= 2550 and MyLevel <= 2574 then
 Ms="Serpent Hunter"
 NameQuest="TikiQuest3"
 QuestLv=1
 NameMon="Serpent Hunter"
-CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
-CFrameMon=CFrame.new(-16621.4140625, 121.40631103515625, 1290.6881103515625)
-elseif Lv==2575 or Lv<=2599 or SelectMonster=="Skull Slayer" or Lv==2600 then
+CFrameQ=CFrame.new(-16665.1914, 104.596405, 1579.69434, 0.951068401, -0, -0.308980465, 0, 1, -0, 0.308980465, 0, 0.951068401)
+CFrameMon=CFrame.new(-16521.0625, 106.09285, 1488.78467, 0.469467044, 0, 0.882950008, 0, 1, 0, -0.882950008, 0, 0.469467044)
+elseif MyLevel >= 2575 then
 Ms="Skull Slayer"
 NameQuest="TikiQuest3"
 QuestLv=2
 NameMon="Skull Slayer"
-CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
-CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+CFrameQ=CFrame.new(-16665.1914, 104.596405, 1579.69434, 0.951068401, -0, -0.308980465, 0, 1, -0, 0.308980465, 0, 0.951068401)
+CFrameMon=CFrame.new(-16855.043, 122.457253, 1478.15308, -0.999392271, 0, -0.0348687991, 0, 1, 0, 0.0348687991, 0, -0.999392271)
 end
 end
 end
